@@ -41,7 +41,7 @@ h2 {
 .btn-oval {
   font-family: "Open Sans", sans-serif;
   background-color: var(--accent);
-  margin-top: 55px;
+  margin-top: 40px;
   border-radius: 20px;
   padding: 10px;
   font-size: 20px;
@@ -52,7 +52,7 @@ h2 {
 }
 
 .btn-oval + .btn-oval {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 /* Boutons Bootstrap aux couleurs du site */

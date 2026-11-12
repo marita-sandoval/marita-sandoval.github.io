@@ -47,7 +47,12 @@ h2 {
   font-size: 20px;
   text-align: center;
   justify-content: center;
-  width: 250px;
+  width: 330px;
+  max-width: 100%;
+}
+
+.btn-oval + .btn-oval {
+  margin-top: 15px;
 }
 
 /* Boutons Bootstrap aux couleurs du site */
@@ -85,7 +90,7 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    width: 200px;
+    width: 280px;
   }
 }
 

@@ -12,6 +12,7 @@ const translations = {
     'hero.title': 'Maria Sandoval',
     'hero.tagline': "I'm a Real Estate Student",
     'hero.cta': 'Contact me on WhatsApp',
+    'hero.cv': 'Download my CV',
 
     // About section
     'about.title': 'About',
@@ -98,6 +99,7 @@ const translations = {
     'hero.title': 'Maria Sandoval',
     'hero.tagline': 'Ich bin Immobilienstudentin',
     'hero.cta': 'Kontakt per WhatsApp',
+    'hero.cv': 'Lebenslauf herunterladen',
 
     // About section
     'about.title': 'Über mich',
@@ -184,6 +186,7 @@ const translations = {
     'hero.title': 'Maria Sandoval',
     'hero.tagline': 'Soy estudiante de Corretaje Inmobiliario',
     'hero.cta': 'Contactarme por WhatsApp',
+    'hero.cv': 'Descargar mi CV',
 
     // About section
     'about.title': 'Acerca de',

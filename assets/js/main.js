@@ -144,6 +144,10 @@
     selector: '.portfolio-lightbox'
   });
 
+    const propertyLightbox = GLightbox({
+    selector: '.property-lightbox'
+  });
+
     const portfolioDetailsLightbox = GLightbox({
     selector: '.portfolio-details-lightbox',
     width: '90%',

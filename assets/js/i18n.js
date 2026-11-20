@@ -6,6 +6,7 @@ const translations = {
     'nav.about': 'About',
     'nav.skills': 'Skills',
     'nav.resume': 'Resume',
+    'nav.properties': 'Properties',
     'nav.contact': 'Contact',
 
     // Hero section
@@ -80,6 +81,23 @@ const translations = {
     'resume.calvanase.location': 'Calvanase S.A. (architecture studio) - Remote (Guayas, Ecuador)',
     'resume.calvanase.description': '<li>Managed client accounts for the studio, handling ongoing communication and relationship follow-up.</li><li>Oversaw invoicing and billing documentation, ensuring accuracy across client accounts.</li><li>Managed calendars, emails and daily task coordination.</li><li>Handled data entry, record keeping and general administrative support.</li><li>Provided accounting and marketing support, plus call handling and client communication.</li>',
 
+    // Properties section
+    'properties.title': 'Properties',
+    'properties.subtitle': 'Selected listings presented by Maria Sandoval',
+    'properties.p1.type': 'Apartment in Portezuelo,',
+    'properties.p1.desc1': 'Excellent 2-room apartment in the Boulevard Plaza building, Portezuelo neighborhood, Nordelta.',
+    'properties.p1.desc2': '69 m² in total (49 m² covered), with a comfortable living-dining room with air conditioning and direct access to a private patio with garden and grill. It also has an integrated kitchen with breakfast bar, a bedroom with a large closet, a full bathroom and a covered garage.',
+    'properties.rooms': 'Rooms:',
+    'properties.rooms.value': '2',
+    'properties.total': 'Total area:',
+    'properties.covered': 'Covered area:',
+    'properties.garage': 'Garage:',
+    'properties.garage.value': 'Covered',
+    'properties.outdoor': 'Outdoor:',
+    'properties.outdoor.value': 'Private patio with garden and grill',
+    'properties.p1.highlight': "Highlight: the garden opens directly onto the complex's shared green space, just 40 meters from the common pool.",
+    'properties.cta': 'Ask for details and book a visit',
+
     // Contact section
     'contact.title': 'Contact',
     'contact.location': 'Location:',
@@ -93,6 +111,7 @@ const translations = {
     'nav.about': 'Über mich',
     'nav.skills': 'Kenntnisse',
     'nav.resume': 'Lebenslauf',
+    'nav.properties': 'Immobilien',
     'nav.contact': 'Kontakt',
 
     // Hero section
@@ -167,6 +186,23 @@ const translations = {
     'resume.calvanase.location': 'Calvanase S.A. (Architekturbüro) - Remote (Guayas, Ecuador)',
     'resume.calvanase.description': '<li>Betreuung der Kundenkonten des Büros mit laufender Kommunikation und Beziehungspflege.</li><li>Verantwortung für Rechnungsstellung und Abrechnungsunterlagen mit Blick auf die Richtigkeit aller Kundenkonten.</li><li>Verwaltung von Kalendern und E-Mails sowie Koordination der täglichen Aufgaben.</li><li>Datenerfassung, Aktenführung und allgemeine administrative Unterstützung.</li><li>Unterstützung in Buchhaltung und Marketing sowie Telefonannahme und Kundenkommunikation.</li>',
 
+    // Immobilien-Bereich
+    'properties.title': 'Immobilien',
+    'properties.subtitle': 'Ausgewählte Objekte, präsentiert von Maria Sandoval',
+    'properties.p1.type': 'Wohnung in Portezuelo,',
+    'properties.p1.desc1': 'Ausgezeichnete 2-Zimmer-Wohnung im Gebäude Boulevard Plaza, Viertel Portezuelo, Nordelta.',
+    'properties.p1.desc2': '69 m² Gesamtfläche (49 m² überdacht), mit einem komfortablen Wohn-Esszimmer mit Klimaanlage und direktem Zugang zu einem privaten Patio mit Garten und Grill. Außerdem gibt es eine integrierte Küche mit Frühstücksbar, ein Schlafzimmer mit großem Einbauschrank, ein vollständiges Bad und eine überdachte Garage.',
+    'properties.rooms': 'Zimmer:',
+    'properties.rooms.value': '2',
+    'properties.total': 'Gesamtfläche:',
+    'properties.covered': 'Überdachte Fläche:',
+    'properties.garage': 'Garage:',
+    'properties.garage.value': 'Überdacht',
+    'properties.outdoor': 'Außenbereich:',
+    'properties.outdoor.value': 'Privater Patio mit Garten und Grill',
+    'properties.p1.highlight': 'Besonderheit: Der Garten hat direkten Zugang zur gemeinschaftlichen Grünfläche der Anlage, nur 40 Meter vom gemeinsamen Pool entfernt.',
+    'properties.cta': 'Details anfragen und Besichtigung vereinbaren',
+
     // Contact section
     'contact.title': 'Kontakt',
     'contact.location': 'Standort:',
@@ -180,6 +216,7 @@ const translations = {
     'nav.about': 'Acerca de',
     'nav.skills': 'Habilidades',
     'nav.resume': 'Currículum',
+    'nav.properties': 'Inmuebles',
     'nav.contact': 'Contacto',
 
     // Hero section
@@ -253,6 +290,23 @@ const translations = {
     'resume.calvanase.period': 'Enero 2021 - Enero 2024',
     'resume.calvanase.location': 'Calvanase S.A. (estudio de arquitectura) - Remoto (Guayas, Ecuador)',
     'resume.calvanase.description': '<li>Gestión de las cuentas de clientes del estudio: comunicación continua y seguimiento de la relación.</li><li>Supervisión de la facturación y de la documentación de pagos, garantizando su exactitud en todas las cuentas.</li><li>Gestión de agendas, correos electrónicos y coordinación de tareas diarias.</li><li>Carga de datos, registro y apoyo administrativo general.</li><li>Apoyo en contabilidad y marketing, además de atención de llamadas y comunicación con clientes.</li>',
+
+    // Sección de inmuebles
+    'properties.title': 'Inmuebles',
+    'properties.subtitle': 'Propiedades seleccionadas por Maria Sandoval',
+    'properties.p1.type': 'Departamento en Portezuelo,',
+    'properties.p1.desc1': 'Excelente departamento de 2 ambientes, ubicado en el Edificio Boulevard Plaza, Barrio Portezuelo, Nordelta.',
+    'properties.p1.desc2': 'Cuenta con 69 m² totales (49 m² cubiertos), distribuidos en un cómodo living comedor con aire acondicionado y salida directa al patio privado con jardín y parrilla. Dispone además de cocina integrada con barra desayunadora, dormitorio con amplio placard, baño completo y cochera techada.',
+    'properties.rooms': 'Ambientes:',
+    'properties.rooms.value': '2',
+    'properties.total': 'Superficie total:',
+    'properties.covered': 'Superficie cubierta:',
+    'properties.garage': 'Cochera:',
+    'properties.garage.value': 'Techada',
+    'properties.outdoor': 'Exteriores:',
+    'properties.outdoor.value': 'Patio privado con jardín y parrilla',
+    'properties.p1.highlight': 'Diferencial: el jardín tiene salida directa al espacio verde compartido del complejo y está a solo 40 metros de la pileta de uso común.',
+    'properties.cta': 'Consultá y agendá una visita',
 
     // Contact section
     'contact.title': 'Contacto',

@@ -1,10 +1,10 @@
 /* ===== COULEURS ===== */
 /* Pour changer la couleur principale du site, modifier uniquement ces 4 valeurs. */
 :root {
-  --accent: #5f6b76;        /* gris ardoise : boutons, liens, titres du CV */
-  --accent-hover: #4b5660;  /* survol */
-  --accent-light: #b9c1c9;  /* éléments décoratifs clairs */
-  --accent-soft: #eef1f4;   /* fonds très clairs (pastilles d'icônes) */
+  --accent: #2b3a6b;        /* azul marino (igual que la presentación MS Real Estate) : boutons, liens, titres du CV */
+  --accent-hover: #1b2750;  /* survol */
+  --accent-light: #bfd6f0;  /* éléments décoratifs clairs */
+  --accent-soft: #eef1f7;   /* fonds très clairs (pastilles d'icônes) */
 }
 
 /* ===== BASE ===== */
@@ -63,7 +63,7 @@ h2 {
   --bs-btn-hover-border-color: var(--accent-hover);
   --bs-btn-active-bg: var(--accent-hover);
   --bs-btn-active-border-color: var(--accent-hover);
-  --bs-btn-focus-shadow-rgb: 95, 107, 118;
+  --bs-btn-focus-shadow-rgb: 43, 58, 107;
   background-color: var(--accent);
   border-color: var(--accent);
 }
@@ -76,7 +76,7 @@ h2 {
 }
 
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(95, 107, 118, 0.35);
+  box-shadow: 0 0 0 0.25rem rgba(43, 58, 107, 0.35);
 }
 
 .hero-chevron {
@@ -1201,7 +1201,7 @@ h3 {
 
 #language-selector:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(95, 107, 118, 0.2);
+  box-shadow: 0 0 0 3px rgba(43, 58, 107, 0.2);
 }
 
 @media (max-width: 991px) {
@@ -1223,5 +1223,89 @@ h3 {
   .language-selector-container {
     top: 20px;
     right: 20px;
+  }
+}
+
+/* ===== PROPERTIES ===== */
+.properties .property-main,
+.properties .property-thumbs a {
+  display: block;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.properties .property-main img,
+.properties .property-thumbs img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.properties .property-thumbs img {
+  aspect-ratio: 4 / 3;
+}
+
+.properties .property-main:hover img,
+.properties .property-thumbs a:hover img {
+  transform: scale(1.04);
+}
+
+.properties .property-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--accent);
+  line-height: 1.2;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+  border-bottom: 4px solid var(--accent);
+  display: block;
+  width: 100%;
+}
+
+.properties .property-title strong {
+  display: block;
+  font-weight: 700;
+}
+
+.properties .property-facts {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0;
+}
+
+.properties .property-facts li {
+  padding: 6px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.properties .property-facts i {
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.properties .property-highlight {
+  background: var(--accent);
+  color: #fff;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border-bottom-right-radius: 0;
+}
+
+.properties .property-cta {
+  margin-top: 24px;
+  width: auto;
+  padding: 10px 26px;
+  display: inline-flex !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .properties .property-main img,
+  .properties .property-thumbs img {
+    transition: none;
   }
 }
